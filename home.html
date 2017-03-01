@@ -1,0 +1,101 @@
+<html>
+<style>
+ 
+#main {
+   
+   background-repeat : no-repeat;
+   -webkit-background-size : cover;
+   -moz-background-size : cover;
+   -o-background-size : cover;
+    background-size : cover;
+	background-position:top;
+	background-size:100% 100%;
+	
+   
+   }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+#addict {
+    display: inline-block;
+    color: #ffff00;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration:none;
+    
+}
+
+li a:hover {
+    text-decoration : underline;
+}
+#dash {
+	position : relative;
+	left : 500px;
+	width : 800px;
+	font-size : 22;
+}
+.ghost-button {
+	
+	display: inline-block;
+  width: 300px;
+   height: 30px;
+   line-height: 30px;
+  padding: 8px;
+  
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff; /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+
+.center{
+    position:absolute;
+    height: 300 px;
+    width: 300px;
+    left:25%;
+    top:30%;
+    margin-top:- 300/2 px;
+    margin-left:- 300/2 px;
+	}
+	
+#head {
+   font-family:serif;
+   font-size:50px;
+   }
+</style>
+<body background = "images/mjr.jpg" id = "main">
+<div id = "dash" >
+  <b><ul>
+  <li><a class = "active" href="home.html" id = "addict"> Home </a></li>
+  <li><a href="about.html" id = "addict"> About us </a></li>
+  <li><a href="vending.html" id = "addict"> Vending Machines </a></li>
+  <li><a href="products.html" id = "addict"> Products </a></li>
+  <li><a href="services.html" id = "addict"> Services </a></li>
+  <li><a href="gallery.html" id = "addict"> Gallery </a></li>
+  <li><a href="contact.html" id = "addict"> Contact us </a></li>
+  </ul></b>
+</div>
+
+</body>
+</html>
